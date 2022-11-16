@@ -1,0 +1,9 @@
+{
+  "name": "lastrelic",
+  "creator": "JohnCraftsYT",
+  "version": "0.0.1",
+  "entry": "index.js",
+  "requires": [
+    "PogData"
+  ]
+}
