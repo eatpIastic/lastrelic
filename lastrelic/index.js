@@ -75,9 +75,3 @@ register("chat", (player, color) => {
       break;
   }
 }).setCriteria(/(.+) picked up the Corrupted (\w+) Relic!/)
-
-register("command", () => {
-  ChatLib.chat(`lastrelic: ${lastrelic}`);
-  ChatLib.chat(`boss: ${boss}`);
-  ChatLib.chat(`display: ${data.display}`);
-}).setName("viewpiss")
